@@ -23,10 +23,10 @@ pipeline {
             echo 'always run if job is success or failure...'
         }
         success {
-            echo 'run if job is success...'
+            echo 'run if job is success.....'
         }
         failure {
-            echo 'run if job is failure...'
+            echo 'run if job is failure.....'
         }
     }
 }
